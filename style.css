@@ -1,0 +1,193 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+/* ----- body area ----- */
+#body_area{
+  background: #f2f4f7;
+}
+.container{
+  max-width: 980px;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 72px;
+  padding-bottom: 197px;
+  justify-content: space-between;
+  align-items: center;
+}
+.left_area{
+  flex-basis: 540px;
+  margin-bottom: 50px;
+}
+.left_area img{
+  height: 106px;
+  margin: -28px;
+  margin-bottom: 10px;
+}
+h2{
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight:lighter;
+  color: #252525;
+}
+.form_area{
+  margin-top: 60px;
+  min-width: 396px;
+  text-align: center;
+}
+form{
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 5px 15px #91919171;
+  
+}
+input{
+  display: block;
+  width: 100%;
+  margin-bottom:16px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+input[name="text"]{
+  font-size: 17px;
+  padding: 14px 16px;
+}
+input[name="text"]:focus{
+  outline: 1px solid #0866ff;
+  box-shadow: 0 0 5px #0867ff71;
+}
+::placeholder{
+  color: #cecece;
+}
+input[type=button]{
+  color: #fff;
+  background: #0866ff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px;
+  cursor: pointer;
+  transition: 0.2s;
+  border: none;
+}
+input[type=button]:hover{
+  background: #1877f2;
+}
+input[type=button]:focus{
+  box-shadow: 0 0 5px #0866ff;
+}
+.form_area a{
+  display: inline-block;
+  color:#0866ff;
+  text-decoration: none;
+}
+.form_area a:hover{
+  text-decoration: underline;
+}
+.form_area hr{
+  border: none;
+  border-bottom: 1px solid #ddd;
+  margin: 22px 0;
+}
+.form_area button{
+  font-size: 17px;
+  line-height: 48px;
+  padding: 0 16px;
+  border-radius: 6px;
+  font-weight: bold;
+  color: #fff;
+  background: #42be29;
+  border: #42b72a;
+  transition: 0.3s;
+  cursor: pointer;
+  margin-bottom: 14px;
+}
+.form_area button:hover{
+  background: #36a420;
+}
+.form_area button:focus{
+  box-shadow: 0 0 5px #0866ff;
+}
+
+.form_area p{
+  margin-top:  25px;
+}
+.form_area p a{
+  color: #000;
+  text-decoration: none;
+}
+
+/* ----- footer area ----- */
+footer{
+  background: #fff;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+
+footer .over_bar{
+  list-style: none;
+  margin-top: 26px;
+}
+footer li{
+  display: inline-block;
+  line-height: 19px;
+}
+footer li a{
+  color: #979899;
+  font-size: 12px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+footer li a:hover{
+  text-decoration: underline;
+}
+footer hr{
+  border: none;
+  border-bottom: 1px solid #ddd;
+  margin-top: 10px;
+}
+footer li button[type="button"]{
+  cursor: pointer;
+  font-size: 15px;
+  padding: 0 9px;
+  color: #585858;
+  background: #f5f6f7;
+  border: 1px solid #bebebe;
+  transition: 0.3s;
+  border-radius: 2px;
+}
+footer li button[type="button"]:hover{
+  background: #ebedf0;
+}
+footer li button i{
+  font-size: 13px;
+  margin-bottom: 2px;
+}
+
+
+
+footer .below_bar{
+  margin-top: 8px;
+}
+footer .below_bar li{
+  line-height: 18px;
+}
+footer .below_bar a{
+  font-size: 13px;
+  font-weight: lighter;
+  margin-right: 14px;
+}
+footer p{
+  display: block;
+  color: #737373;
+  margin-top: 25px;
+  font-size: 11px;
+  margin-bottom: 20px;
+}

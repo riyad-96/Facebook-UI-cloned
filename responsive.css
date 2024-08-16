@@ -1,0 +1,56 @@
+@media  screen and (max-width: 1060px) {
+  .container{
+    margin: 0 40px;
+    /* overflow: hidden; */
+  }
+
+  h2{
+    font-size: 25px;
+    max-width: 400px;
+  }
+  .left_area img{
+    margin: -28px;
+    margin-bottom: 10px;
+  }
+
+
+  footer{
+    padding: 0 40px;
+    max-width: 100%;
+    overflow: hidden;
+  }
+}
+
+
+
+@media screen and (max-width: 900px){
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 31px;
+    padding-bottom: 120px;
+  }
+  .left_area{
+    flex-basis: 540px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  .left_area img{
+    margin: -20px;
+  }
+  .left_area h2{
+    margin: 10px auto;
+
+  }
+
+  .form_area{
+    margin-top: 30px;
+    min-width: 380px;
+    text-align: center;
+  }
+  footer p{
+    margin-bottom: 30px;
+  }
+}
